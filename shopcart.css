@@ -1,0 +1,141 @@
+.container{
+    overflow-x:hidden;
+}
+.products1{
+    margin-top: 0px;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+.product1{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5px;
+    height: 200px;
+    border: 1px solid black;
+}
+.product1img{
+    width: 420px;
+    padding-bottom: 12px;
+    width: 50px;
+  
+}
+.product2img{
+    background-color: rgb(167, 54, 54);
+    width: 420px;
+    padding-bottom: 12px;
+
+}
+.text{
+position: absolute;
+left: 70%;
+top: 10%;
+}
+#conf{
+position: absolute;
+left: 70%;
+bottom: 15%;
+
+
+}
+.product1 h4{
+    font-size: 25px;
+}
+.product1 h5{
+    font-size: 12px;
+    color: rgba(150, 150, 150, 0.559);
+}
+.product1 h6{
+    color: rgb(173, 49, 49);
+    font-size: 15px;
+}
+.product1 h6 del{
+    color: rgba(0, 0, 0, 0.559);
+}
+.product1 h6 span{
+    color: rgba(150, 150, 150, 0.559);
+}
+.taille{
+    background-color: white;
+    position: absolute;
+    width: 90%;
+    top: 80%;
+    margin-left: 12px;
+}
+.taille .SM .lism a{
+    text-decoration: none;
+    color: black;
+}
+.taille .SM .lism a:hover{
+   color: rgb(8, 8, 36);
+   font-size: 25px;
+}
+.SM{
+    display: flex;
+    justify-content: space-between;
+}
+.SM .lism{
+    list-style: none;
+
+}
+.colors{
+  display: flex;
+  margin-top:0px;
+}
+.color {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    background-color:darkblue;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .colors1{
+    display: flex;
+    margin-top:0px;
+  }
+  .color1 {
+      width: 15px;
+      height: 15px;
+      border-radius: 5px;
+      background-color:darkblue;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .colors2{
+        display: flex;
+        margin-top:0px;
+      }
+      .color2 {
+          width: 15px;
+          height: 15px;
+          border-radius: 5px;
+          background-color:darkblue;
+          margin-right: 10px;
+          cursor: pointer;
+        }
+        .colors3{
+            display: flex;
+            margin-top:0px;
+          }
+          .color3 {
+              width: 15px;
+              height: 15px;
+              border-radius: 5px;
+              background-color:darkblue;
+              margin-right: 10px;
+              cursor: pointer;
+            }
+            .colors4{
+                display: flex;
+                margin-top:0px;
+              }
+              .color4 {
+                  width: 15px;
+                  height: 15px;
+                  border-radius: 5px;
+                  background-color:darkblue;
+                  margin-right: 10px;
+                  cursor: pointer;
+                }

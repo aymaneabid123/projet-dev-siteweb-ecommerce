@@ -1,0 +1,50 @@
+body{
+    background:url(pexels-andrea-piacquadio-3755706.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.container{
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.tableau{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.existe{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: yellow;
+}
+.tableaubackground{
+   
+    color: rgb(0, 0, 0);
+}
+.table tr th{
+    color: white;
+}
+.button{
+    background-color: brown;
+    color: aqua;
+}
+ form input{
+    margin: 0;
+    display: flex;
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.photo{
+    position: absolute;
+    left: 40%;
+}

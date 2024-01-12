@@ -1,0 +1,29 @@
+ body{
+ overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.presetation{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.photo{
+    position: absolute;
+    left: 40%;
+}
+
+form input{
+    margin: 0;
+    display: flex;
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+}
+#Rectangle_3 ,#Rectangle_2{
+      margin-top:12px ;
+}

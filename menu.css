@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(6, 14, 41);
+    font-family: serif;
+}
+.banner{
+    background-color: red;
+    height: 100vh;
+    position: relative;
+}
+.banner video{
+    position: absolute;
+    left: -220px;
+   
+} 
+ @media(min-aspect-ratio:16/9){
+    .banner video{
+        width: 60%;
+        height: 850px;
+    }
+}
+.commence{
+    background-color: rgb(6, 14, 41);
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.commence p{
+    position: absolute;
+    font-size: 75px;
+    top: 20%;
+    left: 45%;
+    color: white;
+}
+.commence .buttona{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+.commence .buttona button{
+    width: 140px;
+    height: 30px;
+    margin-left: 22px;
+    background: rgb(186, 77, 77);
+    border-radius: 5px;
+}
+.commence .buttona button a{
+    color: white;
+    text-decoration: none;
+}
+

@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=League+Spartan:wght@100;200;300;400;500;600&family=Poppins:wght@400;500;600;700&family=Young+Serif&display=swap');
+   *{ margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+   
+}
+body{
+    overflow-x: hidden;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: center;
+   
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+}
+.navbar.sticky{
+    background-color:rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    z-index: 10000;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom:1px solid rgb(80, 75, 75);
+}
+.logo{
+    width: 160px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.navbar ul li .buttona{
+    color: rgba(255, 255, 255, 0.783);
+ }
+ .sticky{
+    position: relative;
+ }
+.sticky .logo{
+    width: 160px;
+   position: absolute;
+   left: 40%;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.navbar.sticky ul li a{
+   color: black;
+}
+.navbar.sticky ul li {
+    margin-right: 200px;
+ }
+.sticky ul .aftersticky{
+   transform: translateX(0px);
+ }
+.navbar.sticky ul li .buttona{
+    color: black;
+ }
+.navbar ul .inline{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+
+.navbar ul .inline a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 200;
+    padding: 15px;
+}
+
+.navbar ul .notinline{
+    list-style: none;
+    margin: 20px;
+    position: relative;
+}
+.inline :hover{
+    background-color: rgb(43, 72, 98);
+    transition: 0.1s;
+}
+.navbar ul .notinline a:hover{
+    color: rgb(0, 0, 0);
+}
+.type{
+    background-color: transparent;
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 60px;
+    z-index: 100000;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content h1{
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: 800;
+}
+button{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    background: rgb(0, 192, 226);
+    transition: 0.5s;
+}
+button:hover{
+    color: white;
+}
+.banner video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+    .banner video{
+        width: 100%;
+        height: auto;
+    }
+}
+.promotion{
+    margin: auto;
+    height: 400px;
+    width: 100%;
+    z-index: 1;
+    background:url("Untitled design (9).png")  ;   
+    position: relative;
+}
+.perfect{
+    font-size: 17px;
+   font-style: italic;
+   font-style: oblique;
+    font-weight: 1000;
+    color: burlywood;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.style{
+    font-family: serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    left: 32%;  
+    font-style: italic;
+    font-style: oblique;
+}
+.viste{
+    height: 46px;
+    width: 190px;
+    background-color: black;
+    color: burlywood;
+    position: absolute;
+    top: 42%;
+    left: 38.5%; 
+    position: relative;
+    
+}
+.viste p{
+    font-style: italic;
+    font-style: oblique;
+    text-transform: uppercase;
+     position: absolute;
+    top: 25%;
+    left: 25%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banner1{
+    background-image:url(color1manteaucarmel.png);
+    background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.bigbanner1{
+    background-color: rgb(206, 214, 218);
+    width: 50%;
+    height: 65vh;
+}
+.banner1 .content1{
+position: absolute;
+top: 50%;
+left: 69%;
+}
+.banner2{
+    background-image:url(costume_gris_math-removebg-preview.png);
+    background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.bigbanner2{
+    background: url(7818037a6c03b4935051bedf28d1f4ad.jpg);
+    margin-left: 0px;
+    width: 50%;
+    height: 65vh;
+}
+.banner2 .content2{
+position: absolute;
+top: 50%;
+left: 69%;
+}
+.bigbanner{
+    display: flex;
+}
+.promotion1{
+    border: 1px solid black;
+    margin: auto;
+    height: 400px;
+    width: 100%;
+    z-index: 1;
+      
+    position: relative;
+}
+.perfect1{
+    font-size: 35px;
+    font-weight: 900;
+    color: burlywood;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.style1{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(3, 3, 3);
+    position: absolute;
+    top: 30%;
+    left: 2%;  
+    margin-left:50px ;
+    margin-right: 50px;
+}
+.viste1{
+    height: 46px;
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+    color: burlywood;
+    position: absolute;
+    top: 42%;
+    left: 50%; 
+    position: relative;
+}
+.viste1 .email{
+    text-transform: uppercase;
+     height: 100%;
+     width: 100%;
+     border: 1px solid black;
+}
+.viste1 .join{
+    text-transform: uppercase;
+     position: absolute;
+     top: 30%;
+     left: 90%;
+}
+.viste1 .join a{
+    text-decoration: none;
+    color: burlywood;
+}
